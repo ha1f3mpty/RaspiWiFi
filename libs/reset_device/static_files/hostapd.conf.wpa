@@ -1,9 +1,9 @@
 interface=wlan0
 driver=nl80211
-ssid=temp-ssid
+ssid=BSUSBBUSTER Wi-Fi Setup
 channel=1
 auth_algs=1
 wpa=2
 wpa_key_mgmt=WPA-PSK
 rsn_pairwise=CCMP
-wpa_passphrase=0
+wpa_passphrase=T1dyL3afM0ld

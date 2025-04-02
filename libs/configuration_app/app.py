@@ -147,5 +147,7 @@ if __name__ == '__main__':
 
     if config_hash['ssl_enabled'] == "1":
         app.run(host = '0.0.0.0', port = int(config_hash['server_port']), ssl_context='adhoc')
+        #app.run(host = '10.53.26.1', port = int(config_hash['server_port']), ssl_context='adhoc')
     else:
         app.run(host = '0.0.0.0', port = int(config_hash['server_port']))
+        #app.run(host = '10.53.26.1', port = int(config_hash['server_port']))
